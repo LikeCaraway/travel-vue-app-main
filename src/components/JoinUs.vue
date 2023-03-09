@@ -80,7 +80,7 @@ const form = reactive({
             align-items: center;
             width: 40%;
             .form{
-                width: 90%;
+                width: 100%;
                 padding: 0 1rem;
                 display: flex;
                 flex-direction: column;

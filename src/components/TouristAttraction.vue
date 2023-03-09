@@ -82,6 +82,7 @@
     .pictrue-right-box img{
         width: inherit !important;
         height: 45.5% !important;
+        
     }
 }
 @media screen and (max-width: 759px) {
@@ -89,13 +90,13 @@
         flex-direction: column;
     }
     .pictrue-left-box{
-        width: 90% !important;
+        width: 100% !important;
         margin: 0 auto !important;
     }
     .pictrue-right-box{
         display: flex;
         flex-wrap: wrap;
-        width: 91% !important;
+        width: 100% !important;
         margin: 5px auto !important;
         height: 100%;
     }

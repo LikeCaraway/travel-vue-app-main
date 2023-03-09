@@ -2,6 +2,8 @@
 旅游网
 
 ## 相关依赖
-npm install
-npm create vite@latest
-npm install -D sass-loader sass
+npm install<br/>
+npm create vite@latest<br/>
+npm install -D sass-loader sass<br/>
+npm install element-plus --save<br/>
+npm install -D unplugin-vue-components unplugin-auto-import<br/>
