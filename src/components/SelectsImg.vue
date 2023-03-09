@@ -17,12 +17,15 @@ import {ref} from 'vue';
    //点赞的回调函数
    const likes = () => {
         isLikes.value = !isLikes.value;
-        ElNotification({
+        if( isLikes.value === true){
+            ElNotification({
             message: '点赞成功，谢谢您的关注!',
             type: 'success',
             position:'bottom-right',
-            duration:3000
-        })
+            duration:2500
+            })
+        }
+        
    }
 </script>
 
