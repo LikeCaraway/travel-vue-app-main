@@ -14,4 +14,5 @@ export default defineConfig({
     resolvers: [ElementPlusResolver()],
     }),
   ],
+  base:'/travel-home/'
 })
